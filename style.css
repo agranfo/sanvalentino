@@ -13,45 +13,33 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-.gallery img {
+.foto {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    margin-bottom: 20px;
 }
 
-.gallery img:hover {
-    transform: scale(1.05);
+.pulsanti {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-/* Stile per dispositivi mobili */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-    }
+.bottone {
+    background-color: #cc0066;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
 
-    p {
-        font-size: 1rem;
-    }
-
-    .gallery img {
-        width: 100%;
-        max-width: 300px;
-    }
+.bottone:hover {
+    background-color: #99004d;
 }
